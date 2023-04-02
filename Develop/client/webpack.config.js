@@ -13,10 +13,6 @@ module.exports = () => {
       main: './src/js/index.js',
       install: './src/js/install.js'
     },
-    // devServer: {
-    //   // The `hot` option is to use the webpack-dev-server in combination with the hot module replacement API.
-    //   hot: 'only',
-    // },
     output: {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
