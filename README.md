@@ -13,6 +13,7 @@
 
 ## Usage
 - <a href="https://github.com/chrisbchickin/PWA-Text-Editor/">Github Repo</a>
+- <a href="https://pumpkin-cupcake-31799.herokuapp.com/">Live site</a>
 ## Credits 
 - MDN
 - webpack docs
@@ -35,3 +36,4 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Screenshot
+![image](https://user-images.githubusercontent.com/115959478/229648641-7970c68b-9b10-49f9-a853-873c8434547c.png)
