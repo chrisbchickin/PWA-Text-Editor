@@ -23,11 +23,10 @@ module.exports = () => {
         template: './index.html',
         title: 'JATE'
       }),
-     
-      //Injects our custom service worker
+
       new InjectManifest({
         swSrc: './src-sw.js',
-        swDest: 'service-worker.js',
+        swDest: 'src-sw.js',
       }),
 
       // Creates a manifest.json file.
@@ -39,8 +38,8 @@ module.exports = () => {
         description: 'Never forget tasks!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
-        start_url: './',
-        publicPath: './',
+        start_url: '/',
+        publicPath: '/',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
@@ -49,6 +48,8 @@ module.exports = () => {
           },
         ],
       }),
+      //Injects our custom service worker
+      
     ],
 
     module: {
